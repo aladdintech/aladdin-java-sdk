@@ -49,6 +49,6 @@ public class ConfigUtil {
     /**
      * 公用Key文件名
      */
-    public final static String PUBLIC_ALADDIN_KEY_PATH="aladdin.pub";
+    public final static String PUBLIC_ALADDIN_KEY_PATH="aladdin-open-api.pub";
 
 }
