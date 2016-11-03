@@ -22,7 +22,7 @@ public class APITest {
 	fileList.add("test1.png");
 	fileList.add("test2.png");
 
-	String taskIds[] = { "54ecfc6c329af61034f7c2fc", "54ecfc6c329af61034f7c2fc" };
+	String taskIds[] = { "54ecfc6c329af61034f7c2fc" };
 
 	Api api = new Api(secretId, privateKey);
 
