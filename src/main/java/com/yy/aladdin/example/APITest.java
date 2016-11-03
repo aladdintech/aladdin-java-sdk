@@ -13,14 +13,14 @@ public class APITest {
 	// secret id
 	String secretId = "74ffeffb337b10e842c588ff84e13705";
 	// private KEY path
-	String privateKey = "E:\\work\\aladdin\\aladdin-java-sdk\\src\\main\\resources\\rsatest";
+	String privateKey = "privatekeypath";
 	// fileList imageFile or url
 	ArrayList<String> fileList = new ArrayList<String>();
 	// tags
 	String tags[] = { "tag1", "tag2" };
 
-	fileList.add("E:\\work\\aladdin\\aladdin-java-sdk\\src\\main\\resources\\test1.png");
-	fileList.add("E:\\work\\aladdin\\aladdin-java-sdk\\src\\main\\resources\\test2.png");
+	fileList.add("test1.png");
+	fileList.add("test2.png");
 
 	String taskIds[] = { "54ecfc6c329af61034f7c2fc", "54ecfc6c329af61034f7c2fc" };
 
@@ -31,8 +31,8 @@ public class APITest {
 	System.out.println(result);
 
 	fileList.clear();
-	fileList.add("http://yysnapshot.bs2monitor2.yy.com/4e6f4af407e12fb94d09b4c61bc578acbe555743");
-	fileList.add("http://yysnapshot.bs2monitor2.yy.com/4e6f4af407e12fb94d09b4c61bc578acbe555743");
+	fileList.add("http://xx.com/img1.png");
+	fileList.add("http://xx.com/img2.png");
 
 	result = api.doApiTest(ConfigUtil.UPLOAD_TYPE.UPLOAD_URI_TYPE, fileList, tags, taskIds);
 
